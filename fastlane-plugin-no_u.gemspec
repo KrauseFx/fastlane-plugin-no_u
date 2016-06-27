@@ -10,14 +10,12 @@ Gem::Specification.new do |spec|
   spec.email         = %q{boris@icculus.org}
 
   spec.summary       = %q{no u}
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-no_u"
+  spec.homepage      = "https://github.com/neonichu/fastlane-plugin-no_u"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
-
-  # spec.add_dependency 'your-dependency', '~> 1.0.0'
 
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'bundler'
