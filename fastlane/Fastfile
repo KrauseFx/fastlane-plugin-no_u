@@ -1,3 +1,9 @@
-lane :test do
-  no_u
+# comment here
+
+platform :ios do
+  lane :test do
+    no_u
+  end
 end
+
+default_platform :ios
